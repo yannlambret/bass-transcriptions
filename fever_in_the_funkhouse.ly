@@ -37,9 +37,9 @@ bass = {
 
   % bars 17 - 20
   bes,4 bes,8. bes,16 f,8 a, bes, c( | \noBreak
-  c16) c16 e,8( e,8.) f,16 g, g, c  b, c8 b, | \noBreak
+  c16) c16 e,8 r8. f,16 g, g, c  b, c8 b, | \noBreak
   bes,4 bes,8. bes,16 f,8 bes,4 c8( | \noBreak
-  c16) c16 e,8( e,8.) f,16 g, g, c  b, c8 b, | \break
+  c16) c16 e,8 r8. f,16 g, g, c  b, c8 b, | \break
 
   % bars 21 - 24
   bes,4 bes,8. bes,16 f,8 g, bes, c( | \noBreak
@@ -63,7 +63,13 @@ bass = {
   g,8\staccato g,\staccato f16[( g)] r8 r f16[( g)] r4 | \noBreak
   f16 g8 f16 g8. f16 g,16 r8 a,16( a,) g, a,8 | \noBreak
   bes,8 bes,4. f,8 a, bes, c( | \noBreak
-  c4)( c16) c8 bes,16 g,8 bes, c b,
+  c4)( c16) c8 bes,16 g,8 bes, c b, | \break
+
+  % bars 37 - 40
+  bes,4 bes,8. bes,16 f,8 g, bes, c( | \noBreak
+  c4)( c16) e,8 f,16 fis,8 g, c b, | \noBreak
+  bes,4 bes,8. bes,16 f,8 g, bes, c( | \noBreak
+  c4) c8. bes,16 g,8 b, c cis | \break
 }
 
 \score {
