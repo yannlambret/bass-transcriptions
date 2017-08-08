@@ -44,7 +44,7 @@ bass = {
   % bars 21 - 24
   bes,4 bes,8. bes,16 f,8 g, bes, c( | \noBreak
   c4) c8. bes,16 g,8 b, c cis | \noBreak
-  d4 d8. d16( d16) d a,8 c cis | \noBreak
+  d4 d8. d16( d16) c a, d c8 cis | \noBreak
   d4 d8. a,16( a,8) b, c cis | \break
 
   % bars 25 - 28
