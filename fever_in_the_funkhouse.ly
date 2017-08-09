@@ -36,13 +36,13 @@ bass = {
   f16[( g)] r8 \acciaccatura f g8. \override NoteHead.style = #'cross d16 \revert NoteHead.style g,8\staccato g,\staccato a,4 | \break
 
   % bars 17 - 20
-  bes,4 bes,8. bes,16 f,8 a, bes, c( | \noBreak
+  bes,4 bes,8. \override NoteHead.style = #'cross bes,16 \revert NoteHead.style f,8 a, bes, c( | \noBreak
   c16) c16 e,8 r8. f,16 g, g, c  b, c8 b, | \noBreak
-  bes,4 bes,8. bes,16 f,8 bes,4 c8( | \noBreak
+  bes,4 bes,8. \override NoteHead.style = #'cross bes,16 \revert NoteHead.style f,8 bes,4 c8( | \noBreak
   c16) c16 e,8 r8. f,16 g, g, c  b, c8 b, | \break
 
   % bars 21 - 24
-  bes,4 bes,8. bes,16 f,8 g, bes, c( | \noBreak
+  bes,4 bes,8. \override NoteHead.style = #'cross bes,16 \revert NoteHead.style f,8 g, bes, c( | \noBreak
   c4) c8. bes,16 g,8 b, c cis | \noBreak
   d4 d8. d16( d16) c a, d c8 cis | \noBreak
   d4 d8. a,16( a,8) b, c cis | \break
