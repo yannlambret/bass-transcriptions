@@ -69,7 +69,7 @@ bass = {
   bes,4 bes,8. bes,16 f,8 g, bes, c( | \noBreak
   c4)( c16) e,8 f,16 fis,8 g, c b, | \noBreak
   bes,4 bes,8. bes,16 f,8 g, bes, c( | \noBreak
-  c4) c8. bes,16 g,8 b, c cis | \break
+  c4) c8. bes,16 g,8 bes, c cis | \break
 }
 
 \score {
