@@ -37,9 +37,9 @@ bass = {
 
   % bars 17 - 20
   bes,4 bes,8. \override NoteHead.style = #'cross bes,16 \revert NoteHead.style f,8 a, bes, c( | \noBreak
-  c16) c16 e,8 r8. f,16 g, g, c  b, c8 b, | \noBreak
+  c16) c16 e,8 e,8. f,16 g, g, c  b, c8 b, | \noBreak
   bes,4 bes,8. \override NoteHead.style = #'cross bes,16 \revert NoteHead.style f,8 bes,4 c8( | \noBreak
-  c16) c16 e,8 r8. f,16 g, g, c  b, c8 b, | \break
+  c16) c16 e,8 e,8. f,16 g, g, c  b, c8 b, | \break
 
   % bars 21 - 24
   bes,4 bes,8. \override NoteHead.style = #'cross bes,16 \revert NoteHead.style f,8 g, bes, c( | \noBreak
