@@ -61,7 +61,7 @@ bass = {
 
   % bars 33 - 36
   g,8\staccato g,\staccato f16[( g)] r8 r f16[( g)] r4 | \noBreak
-  f16 g8 f16 g8. \override NoteHead.style = #'cross d16 \revert NoteHead.style g,16 r8 a,16( a,) g, a,8 | \noBreak
+  f16 g8 f16 g8 \override NoteHead.style = #'cross d16 \revert NoteHead.style g,16 r8. a,16( a,) g, a,8 | \noBreak
   bes,8 bes,4. f,8 a, bes, c( | \noBreak
   c4)( c16) c8 bes,16 g,8 bes, c b, | \break
 
