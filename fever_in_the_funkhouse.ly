@@ -70,6 +70,12 @@ bass = {
   c4)( c16) e,8 f,16 fis,8 g, c b, | \noBreak
   bes,4 bes,8. bes,16 f,8 g, bes, c( | \noBreak
   c4) c8. bes,16 g,8 bes, c cis | \break
+
+  % bars 41 - 44
+  d4 c'16 cis'8 d'16( d') c' a8 c' cis' | \noBreak
+  d'16 d8. c'16 cis'8 d'16( d') c' a8 c' d' | \noBreak
+  d8 d c'16 cis'8 d'16( d') c' a8 c' cis' | \noBreak
+  d'16 c'8. a8 d'16 c'( c') a16 a,8\staccato f,\staccato fis,\staccato | \break
 }
 
 \score {
