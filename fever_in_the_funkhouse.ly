@@ -76,6 +76,18 @@ bass = {
   d'16 d8. c'16 cis'8 d'16( d') c' a8 c' d' | \noBreak
   d8 d c'16 cis'8 d'16( d') c' a8 c' cis' | \noBreak
   d'16 c'8. a8 d'16 c'( c') a16 a,8\staccato f,\staccato fis,\staccato | \break
+
+  % bars 45 - 48
+  g,8\staccato g,\staccato f16[( g)] r8 r f16[( g)] r4 | \noBreak
+  f16[(\set stemRightBeamCount = #1 g) \set stemRightBeamCount = #1 \set stemLeftBeamCount = #1 r16 \set stemLeftBeamCount = #2 d16] b,8 d16 c( c) d d8 f g16 \override NoteHead.style = #'cross d \revert NoteHead.style | \noBreak
+  g,8\staccato g,\staccato f16[( g)] r8 r f16[( g)] r4 | \noBreak
+  d16 b,8 d16 c8 d16 cis16( cis) d d8 f g16 \override NoteHead.style = #'cross d \revert NoteHead.style | \break
+
+  % bars 49 - 52
+  g,8\staccato g,\staccato f16[( g)] r8 r f16[( g)] r4 | \noBreak
+  f16[( g)] r8 d16 b,8 d16 c8 d f g16 \override NoteHead.style = #'cross d \revert NoteHead.style | \noBreak
+  g,8\staccato g,\staccato f16[( g)] r8 r f16[( g)] r4 | \noBreak
+  d16 b,8. b,8. d16 c8 d f g16 \override NoteHead.style = #'cross d \revert NoteHead.style | \break
 }
 
 \score {
