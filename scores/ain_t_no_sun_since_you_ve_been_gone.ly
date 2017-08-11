@@ -18,19 +18,19 @@ bass = {
 
   % bars 9 - 12
   g8. g16 bes8 g16 c'( c') g d'8 d f |
-  g8. bes,16( bes,) bes, c8 d f16 d g f d8 |
+  g8. bes,16( bes,) \override NoteHead.style = #'cross bes, \revert NoteHead.style c8 d f16 d g f d8 |
   g8 g16 g bes8 g16 c'( c') g d' d f g8 d16 |
-  g,8 g, bes,16 bes, c8 c16 d f d g f d8 |
+  g,8 g, bes,16 bes, c8 d f16 d g f d8 |
 
   % bars 13 - 16
   g8 g16 g bes8 g16 c'( c') g d'8 d f16 fis |
-  g16 f g8 bes,8.\staccato c16 c8 c d16 f g f |
+  g16 f g8 bes,16 bes,8 c16 c8 c d16 f g f |
   g8 g16 g bes8 g16 c'( c') g d' d f g8 d16 |
-  g,8. g,16 bes,16 bes, c8 d8 f16 d g f d8 |
+  g,16 g,8. bes,16 bes, c8 d8 f16 d g f d8 |
 
   % bars 17 - 20
   g8. g16 bes8 g16 c'( c') g d'8 d8 f16 fis |
-  g f g8 g8. bes,16( bes,) bes, c8 d f16 d |
+  g f g8 g8. bes,16( bes,) \override NoteHead.style = #'cross bes, \revert NoteHead.style c8 d f16 d |
   g8. g16 bes8 g16 c'( c') g d' d f16 g8 d16 |
   g,4 bes,16 bes, c8 d f16 d g f d8 |
 
