@@ -21,7 +21,7 @@ bass = {
   \override NoteHead.style = #'harmonic g'1 \revert NoteHead.style |
   g1 |
   g,2.( g,8) g( |
-  g4) d16 b,8. c8 cis cis d |
+  g4) d16 b,8. c8 cis cis d16 \override NoteHead.style = #'cross d \revert NoteHead.style |
 
   % bars 9 - 12
   g,8\staccato g,\staccato f16[( g)] r8 r f16[( g)] r4 |
