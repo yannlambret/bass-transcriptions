@@ -18,7 +18,7 @@ bass = {
   \repeat percent 7 { f16 g g g g g g g g g g g g g g g } f g g g g g bes, bes,( bes,) c8 d16 d8 f |
 
   % bars 9 - 12
-  g8. g16 bes8 g16 c'( c') g d'8 d f |
+  g8. g16 bes8 g16 c'( c') g d'8\glissando d f |
   g8. bes,16( bes,) \override NoteHead.style = #'cross bes, \revert NoteHead.style c8 d f16 d g f d8 |
   g8 g16 g bes8 g16 c'( c') g d' d f g8 d16 |
   g,8 g, bes,16 bes, c8 d f16 d g f d8 |
