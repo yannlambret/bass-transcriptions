@@ -37,9 +37,9 @@ bass = {
 
   % bars 17 - 20
   bes,4 bes,8. \override NoteHead.style = #'cross bes,16 \revert NoteHead.style f,8 a, bes, c( |
-  c16) c16 e,8 r8. f,16 g,8 c16  b, c8 b, |
+  c16) c16 e,16 e,( e,8.) f,16 g, g, a,  bes, c8 b, |
   bes,4 bes,8. \override NoteHead.style = #'cross bes,16 \revert NoteHead.style f,8 bes,4 c8( |
-  c16) c16 e,8 r8. f,16 g,8 c16  b, c8 b, |
+  c16) c16 e,16 e,( e,8.) f,16 g, g, c  b, c8 b, |
 
   % bars 21 - 24
   bes,4 bes,8. \override NoteHead.style = #'cross bes,16 \revert NoteHead.style f,8 g, bes, c( |
@@ -61,7 +61,7 @@ bass = {
 
   % bars 33 - 36
   g,8\staccato g,\staccato f16[( g)] r8 r f16[( g)] r4 |
-  f16 g8 f16 g8 \override NoteHead.style = #'cross d16 \revert NoteHead.style g,16 r8. a,16( a,) g, a,8 |
+  f16 g8 f16 g8. \override NoteHead.style = #'cross d16 \revert NoteHead.style g,8. a,16( a,) g, a, g, |
   bes,8 bes,4. f,8 a, bes, c( |
   c4)( c16) c8 bes,16 g,8 bes, c b, |
 
@@ -78,16 +78,16 @@ bass = {
   d'16 c'8. a8 d'16 c'( c') a16 a,8\staccato f,\staccato fis,\staccato |
 
   % bars 45 - 48
-  g,8\staccato g,\staccato f16[( g)] r8 r f16[( g)] r4 |
+  g,8\staccato g,\staccato f16[( g)] r8 r f16[( g)] r8. g16 |
   f16[(\set stemRightBeamCount = #1 g) \set stemRightBeamCount = #1 \set stemLeftBeamCount = #1 r16 \set stemLeftBeamCount = #2 d16] b,8 d16 c( c) d d8 f g16 \override NoteHead.style = #'cross d \revert NoteHead.style |
   g,8\staccato g,\staccato f16[( g)] r8 r f16[( g)] r4 |
   d16 b,8 d16 c8 d16 cis16( cis) d d8 f g16 \override NoteHead.style = #'cross d \revert NoteHead.style |
 
   % bars 49 - 52
   g,8\staccato g,\staccato f16[( g)] r8 r f16[( g)] r8. g16 |
-  f16[( g)] r8 d16 b,8 d16 c8 d f g16 \override NoteHead.style = #'cross d \revert NoteHead.style |
-  g,8\staccato g,\staccato f16[( g)] r8 r f16[( g)] r4 |
-  d16 b,8. b,8. d16 c8 d f g16 \override NoteHead.style = #'cross d \revert NoteHead.style |
+  f16( g8) g16 d b,8 d16 c8 d f g16 \override NoteHead.style = #'cross d \revert NoteHead.style |
+  g,8\staccato g,\staccato f16( g) r8 r f16( g) r8. g16 |
+  g16 b,8. b,8. d16 c8 d f g16 \override NoteHead.style = #'cross d \revert NoteHead.style |
 }
 
 \score {
