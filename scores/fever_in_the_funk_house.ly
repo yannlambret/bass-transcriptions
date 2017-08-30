@@ -25,7 +25,7 @@ bass = {
 
   % bars 9 - 12
   g,8\staccato g,\staccato f16( g) r8 r f16( g) r8. \override NoteHead.style = #'cross g16 \revert NoteHead.style |
-  f16( g) r8 d16 b,8 d16 c8 d f g16 \override NoteHead.style = #'cross d \revert NoteHead.style |
+  f16[(\set stemRightBeamCount = #1 g) \set stemRightBeamCount = #1 \set stemLeftBeamCount = #1 r16 \set stemLeftBeamCount = #2 d16] d16 b,8 d16 c8 d f g16 \override NoteHead.style = #'cross d \revert NoteHead.style |
   g,8\staccato g,\staccato f16( g) r8 r f16( g) r8. \override NoteHead.style = #'cross g16 \revert NoteHead.style |
   f16[(\set stemRightBeamCount = #1 g) \set stemRightBeamCount = #1 \set stemLeftBeamCount = #1 r16 \set stemLeftBeamCount = #2 d16] b,8 d16 c( c) d d8 f g16 \override NoteHead.style = #'cross d \revert NoteHead.style |
 
@@ -39,7 +39,7 @@ bass = {
   bes,4 bes,8. \override NoteHead.style = #'cross bes,16 \revert NoteHead.style f,8 a, bes, c( |
   c16) c16 e,16 e,( e,8.) f,16 g, g, a,  bes, c8 b, |
   bes,4 bes,8. \override NoteHead.style = #'cross bes,16 \revert NoteHead.style f,8 bes,4 c8( |
-  c16) c16 e,16 e,( e,8.) f,16 g, g, c  b, c8 b, |
+  c16) c16 e,16 e,( e,8.) f,16 g, g, a,  bes, c8 b, |
 
   % bars 21 - 24
   bes,4 bes,8. \override NoteHead.style = #'cross bes,16 \revert NoteHead.style f,8 g, bes, c( |
@@ -62,13 +62,13 @@ bass = {
   % bars 33 - 36
   g,8\staccato g,\staccato f16( g) r8 r f16( g) r4 |
   f16 g8 f16 g8. \override NoteHead.style = #'cross d16 \revert NoteHead.style g,8. a,16( a,) g, a, g, |
-  bes,8 bes,4. f,8 a, bes, c( |
+  bes,8 bes,( bes,8.) \override NoteHead.style = #'cross bes,16 \revert NoteHead.style f,8 a, bes, c( |
   c4)( c16) c8 bes,16 g,8 bes, c b, |
 
   % bars 37 - 40
   bes,4 bes,8. bes,16 f,8 g, bes, c( |
   c4)( c16) e,8 f,16 fis,8 g, c b, |
-  bes,4 bes,8. bes,16 f,8 g, bes, c( |
+  bes,8 bes, bes,8. bes,16 f,8 g, bes, c( |
   c4) c8. bes,16 g,8 bes, c cis |
 
   % bars 41 - 44
@@ -85,9 +85,36 @@ bass = {
 
   % bars 49 - 52
   g,8\staccato g,\staccato f16( g) r8 r f16( g) r8. \override NoteHead.style = #'cross g16 \revert NoteHead.style |
-  f16( g) r8 d16 b,8 d16 c8 d f g16 \override NoteHead.style = #'cross d \revert NoteHead.style |
-  g,8\staccato g,\staccato f16( g) r8 r f16( g) r4 |
+  f16[(\set stemRightBeamCount = #1 g) \set stemRightBeamCount = #1 \set stemLeftBeamCount = #1 r16 \set stemLeftBeamCount = #2 g16] g16 b,8 d16 c8 d f g16 \override NoteHead.style = #'cross d \revert NoteHead.style |
+  g,8\staccato g,\staccato f16( g) r8 r f16( g) r8. \override NoteHead.style = #'cross g16 \revert NoteHead.style |
   d16 b,8 b,16( b,8.) d16 c8 d f g16 \override NoteHead.style = #'cross d \revert NoteHead.style |
+
+  % bars 53 - 56
+  g,8\staccato g,\staccato r4 r8 g,8\staccato e16 d bes, a, |
+  g,8\staccato g,\staccato r4 g,8\staccato d\staccato e16 g8. |
+  g,8\staccato g,\staccato r4 r8 g,8\staccato e16 d bes, a, |
+  g,8\staccato g,\staccato r4 g,8\staccato g,\staccato e16 g8. |
+
+  % bars 57 - 60
+  g,8\staccato g,\staccato r4 r8 g,8\staccato e16 d bes, a, |
+  g,8\staccato g,\staccato r4 g,8\staccato g,\staccato e16 g8. |
+  g,8\staccato g,\staccato e16 d bes, a, g,8 e16 d bes, a, g,8 |
+  e16 d bes, a, g,8 e16 d bes, a, g,8 e16 d b,8 |
+
+  % bars 61 - 64
+  g1 |
+  g,4 r4 r2 |
+  \override NoteHead.style = #'harmonic g'2.( g'8) \revert NoteHead.style g8( |
+  g1) |
+
+  % bars 65 - 68
+  g,4 r2 r8 g8( |
+  g1) |
+  \override NoteHead.style = #'harmonic g'2.( g'8) \revert NoteHead.style g8( |
+  g4) d16 b,8 d16 c8 cis d d |
+
+  % bars 69 - 72
+  g,8\staccato g,\staccato f16( g) r8 r f16( g) r8. \override NoteHead.style = #'cross g16 \revert NoteHead.style |
 }
 
 \score {
