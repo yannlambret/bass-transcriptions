@@ -86,8 +86,8 @@ bass = {
   % bars 49 - 52
   g,8\staccato g,\staccato f16( g) r8 r f16( g) r8. \override NoteHead.style = #'cross g16 \revert NoteHead.style |
   f16( g) r8 d16 b,8 d16 c8 d f g16 \override NoteHead.style = #'cross d \revert NoteHead.style |
-  g,8\staccato g,\staccato f16( g) r8 r f16( g) r8. g16 |
-  g16 b,8. b,8. d16 c8 d f g16 \override NoteHead.style = #'cross d \revert NoteHead.style |
+  g,8\staccato g,\staccato f16( g) r8 r f16( g) r4 |
+  d16 b,8 b,16( b,8.) d16 c8 d f g16 \override NoteHead.style = #'cross d \revert NoteHead.style |
 }
 
 \score {
